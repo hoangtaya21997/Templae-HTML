@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<title> Example </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
+	<script type="text/javascript" src="vendor/bootstrap.js"></script>
+ 	<script type="text/javascript" src="1.js"></script>
+	<link rel="stylesheet" href="vendor/bootstrap.css">
+	<link rel="stylesheet" href="vendor/font-awesome.css">
+ 	<link rel="stylesheet" href="1.css">
+ 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("collapse-wrap").slideToggle();
+  });
+});
+</script>
+</head>
+<body class="background-grey">
+	<div class="payment-methods">
+		<div class="payment-method__body">
+			<div class="payment-method__title">
+				Chọn phương thức thanh toán
+			</div>
+			<form action="">
+				<div class="section-body-middle-form-p1 nopadding no-border">
+					<div class="wrap">
+						<button type="submit" class="btn-list-option collapsed paytype-qr">
+							<img src="img/paytype_qr.png" alt="" class="width-20">
+							Ứng dụng mobile quét mã
+							<span class="vnpay--red">VN</span>
+							<span class="vnpay--blue">PAY</span>
+							<sup class="vnpay--red">QR</sup>
+						</button>
+					</div>
+					<div class="wrap">
+						<button  class="btn-list-option paytype-localbank collapsed">
+							<img src="img/paytype_local_card.png" alt="" class="width-20">
+							Thẻ ATM và tài khoản ngân hàng
+						<div class="triangle-border">
+							
+						</div>
+						<span class="arrow">
+							<img src="img/ic-arrow.svg" alt="">
+						</span>
+						</button>
+						<div class="collapse-wrap">
+							<ul class="list_cart-2 clearfix">
+								<li>
+								    <div class="lis_cart-img">
+								    	<a href=""><img src="img/vietcombank_logo.png" alt=""></a>	
+								    </div>								
+								</li>
+								<li>
+								    <div class="lis_cart-img">
+								    	<a href=""><img src="img/vietinbank_logo.png" alt=""></a>	
+								    </div>								
+								</li>
+								<li>
+								    <div class="lis_cart-img">
+								    	<a href=""><img src="img/vietcombank_logo.png" alt=""></a>	
+								    </div>								
+								</li>
+								<li>
+								    <div class="lis_cart-img">
+								    	<a href=""><img src="img/vietcombank_logo.png" alt=""></a>	
+								    </div>								
+								</li>
+								<li>
+								    <div class="lis_cart-img">
+								    	<a href=""><img src="img/vietcombank_logo.png" alt=""></a>	
+								    </div>								
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
+

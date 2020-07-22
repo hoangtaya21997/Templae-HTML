@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<title> Example </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
+	<script type="text/javascript" src="vendor/bootstrap.js"></script>
+ 	<script type="text/javascript" src="1.js"></script>
+	<link rel="stylesheet" href="vendor/bootstrap.css">
+	<link rel="stylesheet" href="vendor/font-awesome.css">
+ 	<link rel="stylesheet" href="1.css">
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<header class="head">
+		<div class="head__top">
+			<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="head__inner">
+						<div class="head__left">
+						    <img src="img/logo_home.png" alt="" class="img-fluid">	
+						</div>
+						<div class="head__right">
+							<div class="head__user">
+								<ul>
+									<li>
+										<a href="">Đăng ký</a>
+									</li>
+									<li>
+										<a href="">Đăng nhập</a>
+									</li>
+								</ul>
+							</div>
+							<div class="head__hotline">
+								<strong>Hotline: </strong><span>1234567891</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="head__menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="menu__inner">
+							<ul class="mainMenu">
+								<li>
+									<a href="customer-information.html">Đăng Nhập</a>
+								</li>
+								<li>
+									<a href="singleproduct.html">Chi Tiêt Phim</a>
+								</li>
+								<li>
+									<a href="singleproduct.html">Danh sách phim</a>
+								</li>
+								<li>
+									<a href="buy-ticket.html">Chọn Phim</a>
+								</li>
+								<li>
+									<a href="category-new.html">Tin Tức</a>
+								</li>
+								<li class="last">
+									<a href="seat.html" >Chọn Ghế</a>
+								</li>
+								<li>
+									<a href="user.html">Khách Hàng</a>
+								</li>
+
+							</ul>
+							<div class="button_mua button_mua_home">
+								<a href="#">
+									<img src="img/ticket.png" alt="">MUA VÉ ONLINE
+								</a>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<div class="background__home">
+		<section class="slider">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#myCarousel" data-slide-to="1"></li>
+			    <li data-target="#myCarousel" data-slide-to="2"></li>
+			  </ol>
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner">
+			    <div class="item active">
+			      <img src="img/slider/Banner top phim.jpg" alt="Los Angeles">
+			    </div>
+
+			    <div class="item">
+			      <img src="img/slider/Banner top phim.jpg" alt="Chicago">
+			    </div>
+
+			    <div class="item">
+			      <img src="img/slider/Banner top phim.jpg" alt="New York">
+			    </div>
+			  </div>
+
+			  <!-- Left and right controls -->
+			  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+	</section>
+
+
+
+	<section class="product">
+		<div class="container">
+			  <ul class="nav nav-tabs">
+			    <li class="active"><a data-toggle="tab" href="#home"><h3 class="titlecategory_pr">Phim Đang Chiếu </h3></a></li>
+			    <li><a data-toggle="tab" href="#menu1"><h3 class="titlecategory_pr">Phim hay sắp Chiếu </h3></a></li>
+			  </ul>
+
+			  <div class="tab-content">
+			    <div id="home" class="tab-pane fade in active">
+			      <div class="product__list">
+			      	<ul>
+			      		<li class="last">
+			      			<a href="">
+			      				<img src="img/phim/0013031_0.jpeg" alt="">
+			      			</a>
+			      			<div class="movie_hover">
+			      				<div class="product__item--name">
+			      				<h3>Angry birds 2</h3>
+			      		    </div>
+			      		    <div class="product__item--kind">
+			      		    	<span>Thể loại : Hoạt Hình</span>
+			      		    </div>
+			      		    <div class="product__item--date">
+			      		    	Khởi Chiếu 17/8/2019
+			      		    </div>
+			      		    <div class="product__item--button">
+			      		    	<a href="#">Đặt Vé</a>
+			      		    </div>
+			      			</div>
+			      		</li>
+			      		<li class="last">
+			      			<a href="">
+			      				<img src="img/phim/0013031_0.jpeg" alt="">
+			      			</a>
+			      			<div class="movie_hover">
+			      				<div class="product__item--name">
+			      				<h3>Angry birds 2</h3>
+			      		    </div>
+			      		    <div class="product__item--kind">
+			      		    	<span>Thể loại : Hoạt Hình</span>
+			      		    </div>
+			      		    <div class="product__item--date">
+			      		    	Khởi Chiếu 17/8/2019
+			      		    </div>
+			      		    <div class="product__item--button">
+			      		    	<a href="#">Đặt Vé</a>
+			      		    </div>
+			      			</div>
+			      		</li>
+			      		<li class="last">
+			      			<a href="">
+			      				<img src="img/phim/0013031_0.jpeg" alt="">
+			      			</a>
+			      			<div class="movie_hover">
+			      				<div class="product__item--name">
+			      				<h3>Angry birds 2</h3>
+			      		    </div>
+			      		    <div class="product__item--kind">
+			      		    	<span>Thể loại : Hoạt Hình</span>
+			      		    </div>
+			      		    <div class="product__item--date">
+			      		    	Khởi Chiếu 17/8/2019
+			      		    </div>
+			      		    <div class="product__item--button">
+			      		    	<a href="#">Đặt Vé</a>
+			      		    </div>
+			      			</div>
+			      		</li>
+			      		<li class="last">
+			      			<a href="">
+			      				<img src="img/phim/0013031_0.jpeg" alt="">
+			      			</a>
+			      			<div class="movie_hover">
+			      				<div class="product__item--name">
+			      				<h3>Angry birds 2</h3>
+			      		    </div>
+			      		    <div class="product__item--kind">
+			      		    	<span>Thể loại : Hoạt Hình</span>
+			      		    </div>
+			      		    <div class="product__item--date">
+			      		    	Khởi Chiếu 17/8/2019
+			      		    </div>
+			      		    <div class="product__item--button">
+			      		    	<a href="#">Đặt Vé</a>
+			      		    </div>
+			      			</div>
+			      		</li>
+			      		<li class="last">
+			      			<a href="">
+			      				<img src="img/phim/0013031_0.jpeg" alt="">
+			      			</a>
+			      			<div class="movie_hover">
+			      				<div class="product__item--name">
+			      				<h3>Angry birds 2</h3>
+			      		    </div>
+			      		    <div class="product__item--kind">
+			      		    	<span>Thể loại : Hoạt Hình</span>
+			      		    </div>
+			      		    <div class="product__item--date">
+			      		    	Khởi Chiếu 17/8/2019
+			      		    </div>
+			      		    <div class="product__item--button">
+			      		    	<a href="#">Đặt Vé</a>
+			      		    </div>
+			      			</div>
+			      		</li>
+			      		<li class="last">
+			      			<a href="">
+			      				<img src="img/phim/0013031_0.jpeg" alt="">
+			      			</a>
+			      			<div class="movie_hover">
+			      				<div class="product__item--name">
+			      				<h3>Angry birds 2</h3>
+			      		    </div>
+			      		    <div class="product__item--kind">
+			      		    	<span>Thể loại : Hoạt Hình</span>
+			      		    </div>
+			      		    <div class="product__item--date">
+			      		    	Khởi Chiếu 17/8/2019
+			      		    </div>
+			      		    <div class="product__item--button">
+			      		    	<a href="#">Đặt Vé</a>
+			      		    </div>
+			      			</div>
+			      		</li>
+			      		<li class="last">
+			      			<a href="">
+			      				<img src="img/phim/0013031_0.jpeg" alt="">
+			      			</a>
+			      			<div class="movie_hover">
+			      				<div class="product__item--name">
+			      				<h3>Angry birds 2</h3>
+			      		    </div>
+			      		    <div class="product__item--kind">
+			      		    	<span>Thể loại : Hoạt Hình</span>
+			      		    </div>
+			      		    <div class="product__item--date">
+			      		    	Khởi Chiếu 17/8/2019
+			      		    </div>
+			      		    <div class="product__item--button">
+			      		    	<a href="#">Đặt Vé</a>
+			      		    </div>
+			      			</div>
+			      		</li>
+			      		<li class="last">
+			      			<a href="">
+			      				<img src="img/phim/0013031_0.jpeg" alt="">
+			      			</a>
+			      			<div class="movie_hover">
+			      				<div class="product__item--name">
+			      				<h3>Angry birds 2</h3>
+			      		    </div>
+			      		    <div class="product__item--kind">
+			      		    	<span>Thể loại : Hoạt Hình</span>
+			      		    </div>
+			      		    <div class="product__item--date">
+			      		    	Khởi Chiếu 17/8/2019
+			      		    </div>
+			      		    <div class="product__item--button">
+			      		    	<a href="#">Đặt Vé</a>
+			      		    </div>
+			      			</div>
+			      		</li>
+			      	</ul>
+			      	
+
+			      </div>
+			    </div>
+			    <div id="menu1" class="tab-pane fade">
+			      <div class="product__list">
+			      	<ul>
+			      		<li class="last">
+			      			<a href="">
+			      				<img src="img/phim/0013031_0.jpeg" alt="">
+			      			</a>
+			      			<div class="movie_hover">
+			      				<div class="product__item--name">
+			      				<h3>Angry birds 2</h3>
+			      		    </div>
+			      		    <div class="product__item--kind">
+			      		    	<span>Thể loại : Hoạt Hình</span>
+			      		    </div>
+			      		    <div class="product__item--date">
+			      		    	Khởi Chiếu 17/8/2019
+			      		    </div>
+			      		    <div class="product__item--button">
+			      		    	<a href="#">Đặt Vé</a>
+			      		    </div>
+			      			</div>
+			      		</li>
+			      		<li class="last">
+			      			<a href="">
+			      				<img src="img/phim/0013031_0.jpeg" alt="">
+			      			</a>
+			      			<div class="movie_hover">
+			      				<div class="product__item--name">
+			      				<h3>Angry birds 2</h3>
+			      		    </div>
+			      		    <div class="product__item--kind">
+			      		    	<span>Thể loại : Hoạt Hình</span>
+			      		    </div>
+			      		    <div class="product__item--date">
+			      		    	Khởi Chiếu 17/8/2019
+			      		    </div>
+			      		    <div class="product__item--button">
+			      		    	<a href="#">Đặt Vé</a>
+			      		    </div>
+			      			</div>
+			      		</li>
+			      		<li class="last">
+			      			<a href="">
+			      				<img src="img/phim/0013031_0.jpeg" alt="">
+			      			</a>
+			      			<div class="movie_hover">
+			      				<div class="product__item--name">
+			      				<h3>Angry birds 2</h3>
+			      		    </div>
+			      		    <div class="product__item--kind">
+			      		    	<span>Thể loại : Hoạt Hình</span>
+			      		    </div>
+			      		    <div class="product__item--date">
+			      		    	Khởi Chiếu 17/8/2019
+			      		    </div>
+			      		    <div class="product__item--button">
+			      		    	<a href="#">Đặt Vé</a>
+			      		    </div>
+			      			</div>
+			      		</li>
+			      		<li class="last">
+			      			<a href="">
+			      				<img src="img/phim/0013031_0.jpeg" alt="">
+			      			</a>
+			      			<div class="movie_hover">
+			      				<div class="product__item--name">
+			      				<h3>Angry birds 2</h3>
+			      		    </div>
+			      		    <div class="product__item--kind">
+			      		    	<span>Thể loại : Hoạt Hình</span>
+			      		    </div>
+			      		    <div class="product__item--date">
+			      		    	Khởi Chiếu 17/8/2019
+			      		    </div>
+			      		    <div class="product__item--button">
+			      		    	<a href="#">Đặt Vé</a>
+			      		    </div>
+			      			</div>
+			      		</li>
+			      	</ul>
+			      	
+
+			      </div>
+			  </div>
+		</div>
+	</section>
+
+	<section class="banner__home">
+		<a href="">
+			<img src="img/banner-center.png" alt="">
+		</a>
+	</section>
+
+
+	<section class="new">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="new-inner">
+						<div class="new__left">
+							<div class="new__title">
+								<a href=""><h3>Tin Tức</h3></a>
+								<div class="new__title--button">
+									<a href="">Xen Thêm
+										<img src="img/icon01.png" alt="">
+									</a>
+								</div>
+							</div>
+							<div class="new__left--inner">
+								<ul>
+									<li class="new__item">
+										<a href="">
+											<img src="img/0013126_215.jpeg" alt="">
+										</a>
+										<div class="new__item__title">
+											<a href=""><span>Chương trình phim đang chiếu (Từ 06/9 đến 12/9)...</span></a>
+											<div class="new__item__content">
+											<span>Chương trình phim đang chiếu (Từ 06/9 đến 12/9)...</span>
+										</div>
+										</div>	
+									</li>
+									<li class="new__item">
+										<a href="">
+											<img src="img/0013126_215.jpeg" alt="">
+										</a>
+										<div class="new__item__title">
+											<a href=""><span>Chương trình phim đang chiếu (Từ 06/9 đến 12/9)...</span></a>
+											<div class="new__item__content">
+											<span>Chương trình phim đang chiếu (Từ 06/9 đến 12/9)...</span>
+										</div>
+										</div>	
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="new__right">
+							<div class="new__title">
+								<a href=""><h3>Bình Luận</h3></a>
+								<div class="new__title--button">
+									<a href="">Xen Thêm
+										<img src="img/icon01.png" alt="">
+									</a>
+								</div>
+							</div>
+							<div class="new__right--inner">
+								<div class="new__right--item">
+									<div class="new__right--item--title">
+										<span>Dumbo: Chú voi biết bay</span>
+									</div>
+									<div class="new__right--item--content">
+										<span>“ Phim hài pha chút ma, xem mang tính giải trí và xem ổn <3  ”</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<section class="sale">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="sale__title">
+			<a href=""><h3>
+				khuyến mãi - sự kiện
+			</h3></a>
+			<div class="new__title--button">
+				<a href="">Xen Thêm
+					<img src="img/icon01.png" alt="">
+				</a>
+			</div>
+		</div>
+		<ul>
+			<li>
+				<a href="">
+					<img src="img/phim/0013123.png" alt="">
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/phim/0013123.png" alt="">
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/phim/0013123.png" alt="">
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/phim/0013123.png" alt="">
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/phim/0013123.png" alt="">
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/phim/0013123.png" alt="">
+				</a>
+			</li>
+		</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="footer__inner">
+						<div class="footer__1">
+							<ul>
+								<li>
+									<a href="#" class="click_foot">Chính sách</a>
+								</li>
+								<li>
+									<a href="#" class="click_foot">Chính sách</a>
+								</li>
+								<li>
+									<a href="#" class="click_foot">Chính sách</a>
+								</li>
+								<li>
+									<a href="#" class="click_foot">Chính sách</a>
+								</li>
+								<li>
+									<a href="#" class="click_foot">Chính sách</a>
+								</li>
+								<li>
+									<a href="#" class="click_foot">Chính sách</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__2">
+							<ul>
+								<li>
+									<span>Số ngường online: </span>
+									<img src="img/icon_online.png" alt="">
+									<span class="number">713</span>
+								</li>
+								<li>
+									<span>Số lượng truy cập: </span>
+									<img src="img/icon_online.png" alt="">
+									<span class="number">20403664</span>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__3">
+							<ul>
+								<li>
+									<a href="">
+										<img src="img/img24.png" alt="">
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/img25.png" alt="">
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/logo_da_thong_bao.png" alt="" style="width:185px;height:65px">
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__4">
+							<span>
+								 Cơ quan chủ quản: BỘ VĂN HÓA, THỂ THAO VÀ DU LỊCH
+								 <br>
+								 Bản quyền thuộc Trung tâm Chiếu phim Quốc gia.
+								 <br>
+								 Giấy phép số: 224/GP- TTĐT ngày 31/8/2010 - Chịu trách nhiệm: Nguyễn Danh Dương – Giám đốc.
+								 <br>
+								 Địa chỉ: 87 Láng Hạ, Quận Ba Đình, Tp. Hà Nội - Điện thoại: 024.35141791
+							</span>
+						</div>
+						<div class="footer__5">
+							<ul>
+								<li>
+									<a href="">
+										<img src="img/img26.png" alt="">
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/img27.png" alt="">
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/img28.png" alt="">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
+
